@@ -1,0 +1,43 @@
+body{background-color: rgb(47, 59, 79) !important;
+  color: #7B9CC7 !important; 
+text-align: center !important;
+transition: background-color 1s;
+}
+.temaOscuro{
+  background-color: #2f3b4f !important;
+  color: #7B9CC7 !important; 
+}
+
+.temaClaro{
+  background-color: #7B9CC7 !important;
+  color: #2f3b4f !important; 
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightblue!important;
+
+  }
+
+}
+img {
+  width: 150px;
+  
+  transition: transform 0.3s ;
+
+  border-radius: 25px;
+  border: 2px solid!important;
+}
+img:hover{
+  transform: scale(1.1);
+}
+
+/*img:hover{transform: translateX(300px);/* transform: rotate(15deg); *//* transform: scale(1.2); }*/
+
+img:active{
+   transform: scale(0.8);
+}

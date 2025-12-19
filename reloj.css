@@ -1,0 +1,24 @@
+div{
+  background-color: blue;
+
+  width: 50px;
+  height: 50px;
+}
+contenedor {
+  background-color: transparent;
+  display: grid;
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px);
+  gap: 10px;
+  justify-content: center;
+  
+}
+.temaOscuro{
+  background-color: #2f3b4f !important;
+  color: #7B9CC7 !important; 
+}
+
+.temaClaro{
+  background-color: #7B9CC7 !important;
+  color: #2f3b4f !important; 
+}
