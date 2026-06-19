@@ -1,0 +1,26 @@
+div{
+  /* background-color: blue; */
+
+  width: 50px;
+  height: 50px;
+  transition: background-color  0.1s;
+}
+
+img{
+  
+
+  width: 50px;
+  height: 50px;
+  
+}
+body {
+  background-color: transparent;
+  display: grid;
+  /* grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(10, 50px); */
+  grid-template-columns: repeat(10, 50px);
+  grid-template-rows: repeat(5, 50px);
+  gap: 1px;
+  justify-content: center;
+  
+}

@@ -1,0 +1,15 @@
+a {
+    font-size: 100px;
+    color: #1e90ff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+a:hover,
+a:focus {
+    background-color: #1e90ff;
+    color: #ffffff;
+    outline: none;
+}
